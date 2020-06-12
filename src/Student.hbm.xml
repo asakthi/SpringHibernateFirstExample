@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernate.Student" table="TB_STUDENT1">
+		<id name="sno" column="SNO">
+		</id>
+
+		<property name="sname" column="SNAME" type="string"
+			length="20"></property>
+		<property name="semail" column="SEMAIL" type="string"
+			length="30"></property>
+		<property name="smobile" column="SPHNO" type="string"
+			length="10"></property>
+
+	</class>
+</hibernate-mapping>
